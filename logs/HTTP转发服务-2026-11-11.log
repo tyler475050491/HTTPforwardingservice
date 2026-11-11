@@ -1,0 +1,5121 @@
+﻿[16:42:26.131] 程序已启动。填写远端协议/地址/端口后点击“启动服务”；设备把 http 服务地址指向本机 IP、端口填本机监听端口即可。
+[16:42:26.145] 日志文件：logs\HTTP转发服务-2026-11-11.log（界面暂停或清空时仍继续写入）
+[16:43:09.770] 服务已启动 · 监听 0.0.0.0:8089 → http://192.168.0.172:8088
+[16:43:09.770] 设备请连接 http://192.168.0.172:8089 · 连接超时 15 秒 / 响应超时 60 秒
+[16:43:09.770] 配置已保存：E:\豆包\HTTP转发服务\forwarder_config.json
+[16:43:10.260] 设备 192.168.0.251:34416 已连接
+[16:43:10.265] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:43:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:43:10.279] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:43:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111643104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:43:10.280] 耗时 15 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:43:15.287] 设备 192.168.0.251:34416 已断开
+[16:43:25.254] 设备 192.168.0.251:34430 已连接
+[16:43:25.256] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:43:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:43:25.269] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:43:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111643254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:43:25.270] 耗时 14 ms（服务器往返 13 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:43:30.275] 设备 192.168.0.251:34430 已断开
+[16:43:40.275] 设备 192.168.0.251:34450 已连接
+[16:43:40.276] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:43:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:43:40.286] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:43:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111643404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:43:40.286] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:43:43.262] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:43:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:43:43.265] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:43:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:43:43.266] 耗时 4 ms（服务器往返 3 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:43:48.270] 设备 192.168.0.251:34450 已断开
+[16:43:55.256] 设备 192.168.0.251:34464 已连接
+[16:43:55.259] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:43:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:43:55.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:43:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111643554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:43:55.273] 耗时 14 ms（服务器往返 13 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:44:00.276] 设备 192.168.0.251:34464 已断开
+[16:44:10.259] 设备 192.168.0.251:34484 已连接
+[16:44:10.260] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:44:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:44:10.269] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:44:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111644104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:44:10.270] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:44:15.282] 设备 192.168.0.251:34484 已断开
+[16:44:25.263] 设备 192.168.0.251:34498 已连接
+[16:44:25.266] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:44:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:44:25.283] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:44:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111644254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:44:25.284] 耗时 18 ms（服务器往返 17 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:44:30.287] 设备 192.168.0.251:34498 已断开
+[16:44:40.261] 设备 192.168.0.251:34512 已连接
+[16:44:40.267] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:44:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:44:40.277] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:44:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111644404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:44:40.278] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:44:43.261] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:44:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:44:43.266] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:44:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:44:43.267] 耗时 5 ms（服务器往返 5 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:44:48.271] 设备 192.168.0.251:34512 已断开
+[16:44:55.253] 设备 192.168.0.251:34532 已连接
+[16:44:55.255] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:44:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:44:55.265] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:44:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111644554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:44:55.266] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:45:00.274] 设备 192.168.0.251:34532 已断开
+[16:45:10.265] 设备 192.168.0.251:34552 已连接
+[16:45:10.270] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:45:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:45:10.279] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:45:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111645104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:45:10.280] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:45:15.284] 设备 192.168.0.251:34552 已断开
+[16:45:25.255] 设备 192.168.0.251:34568 已连接
+[16:45:25.261] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:45:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:45:25.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:45:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111645254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:45:25.273] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:45:30.277] 设备 192.168.0.251:34568 已断开
+[16:45:40.261] 设备 192.168.0.251:34588 已连接
+[16:45:40.265] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:45:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:45:40.281] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:45:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111645404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:45:40.281] 耗时 16 ms（服务器往返 15 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:45:43.267] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:45:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:45:43.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:45:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:45:43.272] 耗时 5 ms（服务器往返 4 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:45:43.278] 收到：192.168.0.251 >POST /hpt/v2/Terminals/ListCard HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:45:44
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"devLastUpdateTime":"1776840451"}
+
+[16:45:43.282] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:45:43 GMT
+Content-Length: 59
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"data":{"lastUpdateTime":0,"list":null}}
+
+（已解压 gzip：59 字节 → 明文 41 字节）
+
+[16:45:43.282] 耗时 4 ms（服务器往返 3 ms） · 上传 34 字节 / 下载 59 字节
+
+[16:45:48.287] 设备 192.168.0.251:34588 已断开
+[16:45:55.261] 设备 192.168.0.251:34602 已连接
+[16:45:55.263] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:45:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:45:55.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:45:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111645554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:45:55.273] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:46:00.275] 设备 192.168.0.251:34602 已断开
+[16:46:10.259] 设备 192.168.0.251:34622 已连接
+[16:46:10.261] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:46:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:46:10.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:46:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111646104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:46:10.272] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:46:15.282] 设备 192.168.0.251:34622 已断开
+[16:46:25.262] 设备 192.168.0.251:34636 已连接
+[16:46:25.264] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:46:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:46:25.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:46:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111646254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:46:25.273] 耗时 9 ms（服务器往返 8 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:46:30.277] 设备 192.168.0.251:34636 已断开
+[16:46:40.265] 设备 192.168.0.251:34656 已连接
+[16:46:40.268] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:46:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:46:40.280] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:46:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111646404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:46:40.281] 耗时 13 ms（服务器往返 12 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:46:43.266] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:46:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:46:43.270] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:46:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:46:43.271] 耗时 5 ms（服务器往返 4 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:46:48.273] 设备 192.168.0.251:34656 已断开
+[16:46:55.254] 设备 192.168.0.251:34670 已连接
+[16:46:55.257] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:46:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:46:55.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:46:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111646554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:46:55.273] 耗时 16 ms（服务器往返 15 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:47:00.303] 设备 192.168.0.251:34670 已断开
+[16:47:10.264] 设备 192.168.0.251:34684 已连接
+[16:47:10.269] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:47:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:47:10.279] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:47:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111647104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:47:10.279] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:47:15.284] 设备 192.168.0.251:34684 已断开
+[16:47:25.253] 设备 192.168.0.251:34704 已连接
+[16:47:25.254] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:47:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:47:25.264] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:47:25 GMT
+Content-Length: 202
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111647254"
+}
+
+（已解压 gzip：202 字节 → 明文 300 字节）
+
+[16:47:25.265] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 202 字节
+
+[16:47:30.269] 设备 192.168.0.251:34704 已断开
+[16:47:40.262] 设备 192.168.0.251:34718 已连接
+[16:47:40.267] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:47:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:47:40.277] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:47:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111647404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:47:40.278] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:47:43.262] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:47:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:47:43.265] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:47:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:47:43.265] 耗时 3 ms（服务器往返 3 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:47:48.269] 设备 192.168.0.251:34718 已断开
+[16:47:55.256] 设备 192.168.0.251:34738 已连接
+[16:47:55.260] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:47:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:47:55.268] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:47:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111647554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:47:55.268] 耗时 9 ms（服务器往返 8 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:48:00.273] 设备 192.168.0.251:34738 已断开
+[16:48:10.263] 设备 192.168.0.251:34752 已连接
+[16:48:10.266] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:48:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:48:10.277] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:48:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111648104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:48:10.278] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:48:15.287] 设备 192.168.0.251:34752 已断开
+[16:48:25.252] 设备 192.168.0.251:34774 已连接
+[16:48:25.254] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:48:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:48:25.263] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:48:25 GMT
+Content-Length: 202
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111648254"
+}
+
+（已解压 gzip：202 字节 → 明文 300 字节）
+
+[16:48:25.263] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 202 字节
+
+[16:48:30.268] 设备 192.168.0.251:34774 已断开
+[16:48:40.262] 设备 192.168.0.251:34788 已连接
+[16:48:40.266] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:48:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:48:40.278] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:48:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111648404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:48:40.278] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:48:43.261] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:48:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:48:43.265] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:48:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:48:43.266] 耗时 5 ms（服务器往返 4 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:48:43.278] 设备 192.168.0.251:34790 已连接
+[16:48:43.281] 收到：192.168.0.251 >POST /hpt/v2/Terminals/ListCard HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:48:44
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 25
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"devLastUpdateTime":"0"}
+
+[16:48:43.285] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:48:43 GMT
+Content-Length: 313
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"data":{"lastUpdateTime":1776840451,"list":[{"cardNo":"1466742285","accountID":1,"accountNo":"1001","accountName":"测试1001","lastUpdateTime":1776840451},{"cardNo":"586510537","accountID":2,"accountNo":"1002","accountName":"练艳","lastUpdateTime":1776840451},{"cardNo":"","accountID":3,"accountNo":"1004","accountName":"测试1004","lastUpdateTime":1776840451},{"cardNo":"1921779115","accountID":4,"accountNo":"1005","accountName":"沈工","lastUpdateTime":1776840451},{"cardNo":"","accountID":5,"accountNo":"1006","accountName":"测试1006","lastUpdateTime":1776840451},{"cardNo":"3362908178","accountID":6,"accountNo":"1007","accountName":"测试1007","lastUpdateTime":1776840451},{"cardNo":"4275067894","accountID":7,"accountNo":"1008","accountName":"曾婵娟","lastUpdateTime":1776840451},{"cardNo":"10000","accountID":8,"accountNo":"10000","accountName":"测试10000","lastUpdateTime":1776840451},{"cardNo":"","accountID":9,"accountNo":"1009","accountName":"马佩瑄","lastUpdateTime":1776840451},{"cardNo":"2723640009","accountID":10,"accountNo":"1010","accountName":"高海翔","lastUpdateTime":1776840451}]}}
+
+（已解压 gzip：313 字节 → 明文 1123 字节）
+
+[16:48:43.286] 耗时 4 ms（服务器往返 3 ms） · 上传 25 字节 / 下载 313 字节
+
+[16:48:48.282] 设备 192.168.0.251:34788 已断开
+[16:48:48.289] 设备 192.168.0.251:34790 已断开
+[16:48:55.252] 设备 192.168.0.251:34804 已连接
+[16:48:55.254] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:48:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:48:55.266] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:48:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111648554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:48:55.267] 耗时 13 ms（服务器往返 12 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:49:00.272] 设备 192.168.0.251:34804 已断开
+[16:49:10.255] 设备 192.168.0.251:34824 已连接
+[16:49:10.260] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:49:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:49:10.281] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:49:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111649104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:49:10.281] 耗时 22 ms（服务器往返 21 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:49:15.286] 设备 192.168.0.251:34824 已断开
+[16:49:21.017] 服务已启动 · 监听 0.0.0.0:18094 → http://127.0.0.1:19999
+[16:49:21.018] 设备请连接 http://192.168.0.172:18094 · 连接超时 15 秒 / 响应超时 60 秒
+[16:49:21.018] 配置已保存：E:\豆包\HTTP转发服务\forwarder_config.json
+[16:49:22.523] 设备 127.0.0.1:37365 已连接
+[16:49:22.524] 收到：127.0.0.1 >GET /hpt/v1/Accounts/Auth HTTP/1.1
+Host: 127.0.0.1:18094
+Accept-Encoding: identity
+Connection: close
+User-Agent: HPT-Machine
+client-id: 0002
+
+[16:49:24.527] 转发到 http://127.0.0.1:19999 失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[16:49:24.527] 返回给设备 127.0.0.1:37365：HTTP/1.1 502 Bad Gateway（转发失败，[WinError 10061] 由于目标计算机积极拒绝，无法连接。）
+
+[16:49:25.265] 设备 192.168.0.251:34838 已连接
+[16:49:25.270] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:49:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:49:25.279] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:49:25 GMT
+Content-Length: 202
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111649254"
+}
+
+（已解压 gzip：202 字节 → 明文 300 字节）
+
+[16:49:25.280] 耗时 9 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 202 字节
+
+[16:49:26.021] 服务已停止，不再接受新连接
+[16:49:26.022] 服务已启动 · 监听 0.0.0.0:18094 → http://127.0.0.1:18082
+[16:49:26.022] 设备请连接 http://192.168.0.172:18094 · 连接超时 15 秒 / 响应超时 60 秒
+[16:49:26.023] 配置已保存：E:\豆包\HTTP转发服务\forwarder_config.json
+[16:49:26.026] 设备 127.0.0.1:37369 已连接
+[16:49:26.026] 收到：127.0.0.1 >GET /hpt/v1/Accounts/FaceSyncTasks HTTP/1.1
+Host: 127.0.0.1:18094
+Accept-Encoding: identity
+Connection: close
+User-Agent: HPT-Machine
+
+[16:49:26.026] 返回：HTTP/1.0 500 Internal Server Error
+Server: BaseHTTP/0.6 Python/3.8.8
+Date: Wed, 11 Nov 2026 08:49:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 43
+
+{"Status":"500","Msg":"设备鉴权失败"}
+
+[16:49:26.027] 耗时 1 ms（服务器往返 1 ms） · 上传 0 字节 / 下载 43 字节
+
+[16:49:30.283] 设备 192.168.0.251:34838 已断开
+[16:49:40.252] 设备 192.168.0.251:34858 已连接
+[16:49:40.256] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:49:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:49:40.277] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:49:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111649404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:49:40.278] 耗时 22 ms（服务器往返 21 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:49:43.268] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:49:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:49:43.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:49:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:49:43.272] 耗时 4 ms（服务器往返 3 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:49:48.275] 设备 192.168.0.251:34858 已断开
+[16:49:55.262] 设备 192.168.0.251:34872 已连接
+[16:49:55.264] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:49:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:49:55.278] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:49:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111649554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:49:55.278] 耗时 15 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:50:00.285] 设备 192.168.0.251:34872 已断开
+[16:50:10.256] 设备 192.168.0.251:34892 已连接
+[16:50:10.260] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:50:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:50:10.270] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:50:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111650104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:50:10.270] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:50:15.273] 设备 192.168.0.251:34892 已断开
+[16:50:25.256] 设备 192.168.0.251:34906 已连接
+[16:50:25.258] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:50:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:50:25.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:50:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111650254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:50:25.273] 耗时 15 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:50:30.277] 设备 192.168.0.251:34906 已断开
+[16:50:40.282] 设备 192.168.0.251:34920 已连接
+[16:50:40.284] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:50:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:50:40.295] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:50:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111650404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:50:40.296] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:50:43.261] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:50:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:50:43.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:50:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:50:43.272] 耗时 11 ms（服务器往返 10 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:50:48.275] 设备 192.168.0.251:34920 已断开
+[16:50:55.255] 设备 192.168.0.251:34940 已连接
+[16:50:55.258] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:50:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:50:55.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:50:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111650554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:50:55.272] 耗时 14 ms（服务器往返 13 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:51:00.276] 设备 192.168.0.251:34940 已断开
+[16:51:10.264] 设备 192.168.0.251:34954 已连接
+[16:51:10.270] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:51:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:51:10.280] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:51:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111651104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:51:10.281] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:51:15.284] 设备 192.168.0.251:34954 已断开
+[16:51:25.259] 设备 192.168.0.251:34976 已连接
+[16:51:25.260] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:51:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:51:25.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:51:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111651254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:51:25.272] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:51:30.276] 设备 192.168.0.251:34976 已断开
+[16:51:40.263] 设备 192.168.0.251:34990 已连接
+[16:51:40.265] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:51:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:51:40.278] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:51:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111651404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:51:40.279] 耗时 14 ms（服务器往返 13 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:51:43.258] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:51:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:51:43.264] 设备 192.168.0.251:34998 已连接
+[16:51:43.266] 收到：192.168.0.251 >POST /hpt/v2/Terminals/ListCard HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:51:44
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"devLastUpdateTime":"1776840451"}
+
+[16:51:43.269] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:51:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:51:43.269] 耗时 11 ms（服务器往返 10 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:51:43.279] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:51:43 GMT
+Content-Length: 59
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"data":{"lastUpdateTime":0,"list":null}}
+
+（已解压 gzip：59 字节 → 明文 41 字节）
+
+[16:51:43.279] 耗时 13 ms（服务器往返 12 ms） · 上传 34 字节 / 下载 59 字节
+
+[16:51:48.274] 设备 192.168.0.251:34990 已断开
+[16:51:48.287] 设备 192.168.0.251:34998 已断开
+[16:51:55.254] 设备 192.168.0.251:35012 已连接
+[16:51:55.258] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:51:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:51:55.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:51:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111651554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:51:55.271] 耗时 13 ms（服务器往返 12 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:52:00.280] 设备 192.168.0.251:35012 已断开
+[16:52:10.261] 设备 192.168.0.251:35026 已连接
+[16:52:10.264] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:52:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:52:10.282] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:52:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111652104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:52:10.283] 耗时 18 ms（服务器往返 18 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:52:15.294] 设备 192.168.0.251:35026 已断开
+[16:52:25.253] 设备 192.168.0.251:35046 已连接
+[16:52:25.256] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:52:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:52:25.267] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:52:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111652254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:52:25.267] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:52:30.272] 设备 192.168.0.251:35046 已断开
+[16:52:40.264] 设备 192.168.0.251:35060 已连接
+[16:52:40.265] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:52:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:52:40.273] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:52:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111652404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:52:40.274] 耗时 9 ms（服务器往返 8 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:52:43.259] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:52:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:52:43.265] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:52:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:52:43.266] 耗时 7 ms（服务器往返 6 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:52:48.271] 设备 192.168.0.251:35060 已断开
+[16:52:55.252] 设备 192.168.0.251:35074 已连接
+[16:52:55.254] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:52:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:52:55.265] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:52:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111652554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:52:55.265] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:53:00.274] 设备 192.168.0.251:35074 已断开
+[16:53:10.255] 设备 192.168.0.251:35094 已连接
+[16:53:10.257] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:53:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:53:10.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:53:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111653104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:53:10.272] 耗时 15 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:53:15.278] 设备 192.168.0.251:35094 已断开
+[16:53:25.256] 设备 192.168.0.251:35108 已连接
+[16:53:25.260] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:53:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:53:25.275] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:53:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111653254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:53:25.276] 耗时 16 ms（服务器往返 15 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:53:30.279] 设备 192.168.0.251:35108 已断开
+[16:53:40.254] 设备 192.168.0.251:35128 已连接
+[16:53:40.256] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:53:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:53:40.270] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:53:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111653404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:53:40.271] 耗时 15 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:53:43.264] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:53:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:53:43.267] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:53:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:53:43.268] 耗时 4 ms（服务器往返 3 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:53:48.272] 设备 192.168.0.251:35128 已断开
+[16:53:55.259] 设备 192.168.0.251:35142 已连接
+[16:53:55.262] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:53:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:53:55.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:53:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111653554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:53:55.271] 耗时 9 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:54:00.275] 设备 192.168.0.251:35142 已断开
+[16:54:10.257] 设备 192.168.0.251:35162 已连接
+[16:54:10.261] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:54:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:54:10.280] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:54:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111654104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:54:10.281] 耗时 20 ms（服务器往返 19 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:54:15.285] 设备 192.168.0.251:35162 已断开
+[16:54:25.255] 设备 192.168.0.251:35178 已连接
+[16:54:25.257] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:54:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:54:25.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:54:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111654254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:54:25.272] 耗时 15 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:54:30.275] 设备 192.168.0.251:35178 已断开
+[16:54:40.251] 设备 192.168.0.251:35192 已连接
+[16:54:40.261] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:54:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:54:40.270] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:54:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111654404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:54:40.271] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:54:43.257] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:54:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:54:43.265] 设备 192.168.0.251:35200 已连接
+[16:54:43.267] 收到：192.168.0.251 >POST /hpt/v2/Terminals/ListCard HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:54:44
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 25
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"devLastUpdateTime":"0"}
+
+[16:54:43.277] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:54:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:54:43.277] 耗时 20 ms（服务器往返 19 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:54:43.281] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:54:43 GMT
+Content-Length: 313
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"data":{"lastUpdateTime":1776840451,"list":[{"cardNo":"1466742285","accountID":1,"accountNo":"1001","accountName":"测试1001","lastUpdateTime":1776840451},{"cardNo":"586510537","accountID":2,"accountNo":"1002","accountName":"练艳","lastUpdateTime":1776840451},{"cardNo":"","accountID":3,"accountNo":"1004","accountName":"测试1004","lastUpdateTime":1776840451},{"cardNo":"1921779115","accountID":4,"accountNo":"1005","accountName":"沈工","lastUpdateTime":1776840451},{"cardNo":"","accountID":5,"accountNo":"1006","accountName":"测试1006","lastUpdateTime":1776840451},{"cardNo":"3362908178","accountID":6,"accountNo":"1007","accountName":"测试1007","lastUpdateTime":1776840451},{"cardNo":"4275067894","accountID":7,"accountNo":"1008","accountName":"曾婵娟","lastUpdateTime":1776840451},{"cardNo":"10000","accountID":8,"accountNo":"10000","accountName":"测试10000","lastUpdateTime":1776840451},{"cardNo":"","accountID":9,"accountNo":"1009","accountName":"马佩瑄","lastUpdateTime":1776840451},{"cardNo":"2723640009","accountID":10,"accountNo":"1010","accountName":"高海翔","lastUpdateTime":1776840451}]}}
+
+（已解压 gzip：313 字节 → 明文 1123 字节）
+
+[16:54:43.282] 耗时 15 ms（服务器往返 14 ms） · 上传 25 字节 / 下载 313 字节
+
+[16:54:48.281] 设备 192.168.0.251:35192 已断开
+[16:54:48.293] 设备 192.168.0.251:35200 已断开
+[16:54:55.260] 设备 192.168.0.251:35214 已连接
+[16:54:55.262] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:54:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:54:55.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:54:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111654554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:54:55.271] 耗时 9 ms（服务器往返 8 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:55:00.275] 设备 192.168.0.251:35214 已断开
+[16:55:10.255] 设备 192.168.0.251:35228 已连接
+[16:55:10.266] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:55:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:55:10.278] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:55:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111655104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:55:10.279] 耗时 13 ms（服务器往返 13 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:55:15.284] 设备 192.168.0.251:35228 已断开
+[16:55:25.251] 设备 192.168.0.251:35248 已连接
+[16:55:25.254] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:55:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:55:25.265] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:55:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111655254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:55:25.266] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:55:30.270] 设备 192.168.0.251:35248 已断开
+[16:55:40.257] 设备 192.168.0.251:35262 已连接
+[16:55:40.261] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:55:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:55:40.270] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:55:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111655404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:55:40.270] 耗时 9 ms（服务器往返 8 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:55:43.257] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:55:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:55:43.264] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:55:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:55:43.265] 耗时 8 ms（服务器往返 7 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:55:48.268] 设备 192.168.0.251:35262 已断开
+[16:55:55.253] 设备 192.168.0.251:35282 已连接
+[16:55:55.254] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:55:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:55:55.266] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:55:55 GMT
+Content-Length: 200
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111655554"
+}
+
+（已解压 gzip：200 字节 → 明文 300 字节）
+
+[16:55:55.267] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 200 字节
+
+[16:56:00.271] 设备 192.168.0.251:35282 已断开
+[16:56:10.263] 设备 192.168.0.251:35296 已连接
+[16:56:10.265] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:56:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:56:10.277] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:56:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111656104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:56:10.278] 耗时 13 ms（服务器往返 12 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:56:15.283] 设备 192.168.0.251:35296 已断开
+[16:56:25.270] 设备 192.168.0.251:35312 已连接
+[16:56:25.276] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:56:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:56:25.285] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:56:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111656254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:56:25.285] 耗时 9 ms（服务器往返 8 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:56:30.292] 设备 192.168.0.251:35312 已断开
+[16:56:40.254] 设备 192.168.0.251:35330 已连接
+[16:56:40.258] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:56:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:56:40.269] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:56:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111656404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:56:40.269] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:56:43.256] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:56:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:56:43.263] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:56:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:56:43.263] 耗时 7 ms（服务器往返 7 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:56:48.269] 设备 192.168.0.251:35330 已断开
+[16:56:55.249] 设备 192.168.0.251:35344 已连接
+[16:56:55.251] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:56:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:56:55.265] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:56:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111656554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:56:55.265] 耗时 15 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:57:00.271] 设备 192.168.0.251:35344 已断开
+[16:57:10.258] 设备 192.168.0.251:35364 已连接
+[16:57:10.261] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:57:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:57:10.270] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:57:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111657104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:57:10.270] 耗时 9 ms（服务器往返 8 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:57:15.274] 设备 192.168.0.251:35364 已断开
+[16:57:25.251] 设备 192.168.0.251:35380 已连接
+[16:57:25.259] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:57:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:57:25.267] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:57:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111657254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:57:25.269] 耗时 9 ms（服务器往返 8 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:57:30.272] 设备 192.168.0.251:35380 已断开
+[16:57:40.253] 设备 192.168.0.251:35400 已连接
+[16:57:40.256] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:57:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:57:40.276] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:57:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111657404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:57:40.277] 耗时 20 ms（服务器往返 19 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:57:43.261] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:57:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:57:43.264] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:57:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:57:43.264] 耗时 4 ms（服务器往返 3 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:57:43.275] 收到：192.168.0.251 >POST /hpt/v2/Terminals/ListCard HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:57:44
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"devLastUpdateTime":"1776840451"}
+
+[16:57:43.277] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:57:43 GMT
+Content-Length: 59
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"data":{"lastUpdateTime":0,"list":null}}
+
+（已解压 gzip：59 字节 → 明文 41 字节）
+
+[16:57:43.277] 耗时 3 ms（服务器往返 3 ms） · 上传 34 字节 / 下载 59 字节
+
+[16:57:48.280] 设备 192.168.0.251:35400 已断开
+[16:57:55.254] 设备 192.168.0.251:35414 已连接
+[16:57:55.256] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:57:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:57:55.269] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:57:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111657554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:57:55.270] 耗时 14 ms（服务器往返 13 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:58:00.273] 设备 192.168.0.251:35414 已断开
+[16:58:10.252] 设备 192.168.0.251:35434 已连接
+[16:58:10.254] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:58:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:58:10.267] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:58:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111658104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:58:10.268] 耗时 14 ms（服务器往返 13 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:58:15.272] 设备 192.168.0.251:35434 已断开
+[16:58:25.257] 设备 192.168.0.251:35448 已连接
+[16:58:25.259] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:58:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:58:25.269] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:58:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111658254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:58:25.269] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:58:30.273] 设备 192.168.0.251:35448 已断开
+[16:58:40.260] 设备 192.168.0.251:35462 已连接
+[16:58:40.270] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:58:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:58:40.285] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:58:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111658404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:58:40.286] 耗时 16 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:58:43.260] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:58:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:58:43.266] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:58:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:58:43.267] 耗时 7 ms（服务器往返 6 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:58:48.269] 设备 192.168.0.251:35462 已断开
+[16:58:55.249] 设备 192.168.0.251:35482 已连接
+[16:58:55.253] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:58:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:58:55.265] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:58:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111658554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:58:55.265] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:59:00.269] 设备 192.168.0.251:35482 已断开
+[16:59:10.257] 设备 192.168.0.251:35496 已连接
+[16:59:10.260] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:59:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:59:10.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:59:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111659104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:59:10.271] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:59:15.275] 设备 192.168.0.251:35496 已断开
+[16:59:25.251] 设备 192.168.0.251:35516 已连接
+[16:59:25.253] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:59:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:59:25.267] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:59:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111659254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:59:25.268] 耗时 15 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:59:30.272] 设备 192.168.0.251:35516 已断开
+[16:59:40.258] 设备 192.168.0.251:35530 已连接
+[16:59:40.260] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:59:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:59:40.271] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:59:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111659404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:59:40.272] 耗时 12 ms（服务器往返 12 ms） · 上传 24 字节 / 下载 201 字节
+
+[16:59:43.258] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:59:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[16:59:43.264] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 08:59:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[16:59:43.264] 耗时 6 ms（服务器往返 5 ms） · 上传 0 字节 / 下载 52 字节
+
+[16:59:48.269] 设备 192.168.0.251:35530 已断开
+[16:59:55.254] 设备 192.168.0.251:35550 已连接
+[16:59:55.261] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 16:59:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[16:59:55.277] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 08:59:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111659554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[16:59:55.277] 耗时 16 ms（服务器往返 15 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:00:00.286] 设备 192.168.0.251:35550 已断开
+[17:00:10.260] 设备 192.168.0.251:35564 已连接
+[17:00:10.261] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:00:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:00:10.276] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:00:10 GMT
+Content-Length: 200
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111700104"
+}
+
+（已解压 gzip：200 字节 → 明文 300 字节）
+
+[17:00:10.277] 耗时 16 ms（服务器往返 15 ms） · 上传 24 字节 / 下载 200 字节
+
+[17:00:15.281] 设备 192.168.0.251:35564 已断开
+[17:00:25.254] 设备 192.168.0.251:35580 已连接
+[17:00:25.275] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:00:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:00:25.284] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:00:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111700254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:00:25.284] 耗时 9 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:00:30.295] 设备 192.168.0.251:35580 已断开
+[17:00:40.258] 设备 192.168.0.251:35600 已连接
+[17:00:40.267] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:00:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:00:40.280] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:00:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111700404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:00:40.281] 耗时 14 ms（服务器往返 13 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:00:43.258] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:00:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[17:00:43.266] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 09:00:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[17:00:43.266] 耗时 8 ms（服务器往返 7 ms） · 上传 0 字节 / 下载 52 字节
+
+[17:00:43.273] 设备 192.168.0.251:35602 已连接
+[17:00:43.275] 收到：192.168.0.251 >POST /hpt/v2/Terminals/ListCard HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:00:44
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 25
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"devLastUpdateTime":"0"}
+
+[17:00:43.282] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 09:00:43 GMT
+Content-Length: 313
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"data":{"lastUpdateTime":1776840451,"list":[{"cardNo":"1466742285","accountID":1,"accountNo":"1001","accountName":"测试1001","lastUpdateTime":1776840451},{"cardNo":"586510537","accountID":2,"accountNo":"1002","accountName":"练艳","lastUpdateTime":1776840451},{"cardNo":"","accountID":3,"accountNo":"1004","accountName":"测试1004","lastUpdateTime":1776840451},{"cardNo":"1921779115","accountID":4,"accountNo":"1005","accountName":"沈工","lastUpdateTime":1776840451},{"cardNo":"","accountID":5,"accountNo":"1006","accountName":"测试1006","lastUpdateTime":1776840451},{"cardNo":"3362908178","accountID":6,"accountNo":"1007","accountName":"测试1007","lastUpdateTime":1776840451},{"cardNo":"4275067894","accountID":7,"accountNo":"1008","accountName":"曾婵娟","lastUpdateTime":1776840451},{"cardNo":"10000","accountID":8,"accountNo":"10000","accountName":"测试10000","lastUpdateTime":1776840451},{"cardNo":"","accountID":9,"accountNo":"1009","accountName":"马佩瑄","lastUpdateTime":1776840451},{"cardNo":"2723640009","accountID":10,"accountNo":"1010","accountName":"高海翔","lastUpdateTime":1776840451}]}}
+
+（已解压 gzip：313 字节 → 明文 1123 字节）
+
+[17:00:43.283] 耗时 8 ms（服务器往返 7 ms） · 上传 25 字节 / 下载 313 字节
+
+[17:00:48.272] 设备 192.168.0.251:35600 已断开
+[17:00:48.287] 设备 192.168.0.251:35602 已断开
+[17:00:55.247] 设备 192.168.0.251:35616 已连接
+[17:00:55.249] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:00:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:00:55.279] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:00:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111700554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:00:55.280] 耗时 31 ms（服务器往返 30 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:01:00.284] 设备 192.168.0.251:35616 已断开
+[17:01:10.254] 设备 192.168.0.251:35636 已连接
+[17:01:10.257] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:01:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:01:10.267] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:01:10 GMT
+Content-Length: 204
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111701104"
+}
+
+（已解压 gzip：204 字节 → 明文 300 字节）
+
+[17:01:10.268] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 204 字节
+
+[17:01:15.272] 设备 192.168.0.251:35636 已断开
+[17:01:25.255] 设备 192.168.0.251:35650 已连接
+[17:01:25.260] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:01:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:01:25.269] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:01:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111701254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:01:25.270] 耗时 10 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:01:30.273] 设备 192.168.0.251:35650 已断开
+[17:01:40.253] 设备 192.168.0.251:35670 已连接
+[17:01:40.255] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:01:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:01:40.264] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:01:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111701404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:01:40.265] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:01:43.259] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:01:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[17:01:43.264] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 09:01:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[17:01:43.264] 耗时 5 ms（服务器往返 4 ms） · 上传 0 字节 / 下载 52 字节
+
+[17:01:48.269] 设备 192.168.0.251:35670 已断开
+[17:01:55.255] 设备 192.168.0.251:35684 已连接
+[17:01:55.259] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:01:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:01:55.268] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:01:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111701554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:01:55.269] 耗时 9 ms（服务器往返 8 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:02:00.272] 设备 192.168.0.251:35684 已断开
+[17:02:10.262] 设备 192.168.0.251:35698 已连接
+[17:02:10.271] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:02:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:02:10.282] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:02:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111702104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:02:10.283] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:02:15.288] 设备 192.168.0.251:35698 已断开
+[17:02:25.256] 设备 192.168.0.251:35718 已连接
+[17:02:25.258] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:02:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:02:25.268] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:02:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111702254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:02:25.269] 耗时 11 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:02:30.273] 设备 192.168.0.251:35718 已断开
+[17:02:40.253] 设备 192.168.0.251:35732 已连接
+[17:02:40.258] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:02:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:02:40.270] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:02:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111702404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:02:40.271] 耗时 13 ms（服务器往返 12 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:02:43.255] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:02:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[17:02:43.258] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 09:02:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[17:02:43.258] 耗时 3 ms（服务器往返 3 ms） · 上传 0 字节 / 下载 52 字节
+
+[17:02:48.262] 设备 192.168.0.251:35732 已断开
+[17:02:55.250] 设备 192.168.0.251:35752 已连接
+[17:02:55.252] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:02:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:02:55.263] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:02:55 GMT
+Content-Length: 203
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111702554"
+}
+
+（已解压 gzip：203 字节 → 明文 300 字节）
+
+[17:02:55.263] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 203 字节
+
+[17:03:00.267] 设备 192.168.0.251:35752 已断开
+[17:03:10.250] 设备 192.168.0.251:35766 已连接
+[17:03:10.256] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:03:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:03:10.266] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:03:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111703104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:03:10.267] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:03:15.270] 设备 192.168.0.251:35766 已断开
+[17:03:25.252] 设备 192.168.0.251:35788 已连接
+[17:03:25.258] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:03:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:03:25.269] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:03:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111703254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:03:25.269] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:03:30.275] 设备 192.168.0.251:35788 已断开
+[17:03:40.255] 设备 192.168.0.251:35802 已连接
+[17:03:40.258] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:03:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:03:40.268] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:03:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111703404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:03:40.268] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:03:43.254] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:03:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[17:03:43.257] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 09:03:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[17:03:43.258] 耗时 4 ms（服务器往返 3 ms） · 上传 0 字节 / 下载 52 字节
+
+[17:03:43.262] 设备 192.168.0.251:35810 已连接
+[17:03:43.263] 收到：192.168.0.251 >POST /hpt/v2/Terminals/ListCard HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:03:44
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"devLastUpdateTime":"1776840451"}
+
+[17:03:43.267] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 09:03:43 GMT
+Content-Length: 59
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"data":{"lastUpdateTime":0,"list":null}}
+
+（已解压 gzip：59 字节 → 明文 41 字节）
+
+[17:03:43.267] 耗时 4 ms（服务器往返 3 ms） · 上传 34 字节 / 下载 59 字节
+
+[17:03:48.261] 设备 192.168.0.251:35802 已断开
+[17:03:48.269] 设备 192.168.0.251:35810 已断开
+[17:03:55.269] 设备 192.168.0.251:35824 已连接
+[17:03:55.282] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:03:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:03:55.293] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:03:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111703554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:03:55.294] 耗时 12 ms（服务器往返 11 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:04:00.300] 设备 192.168.0.251:35824 已断开
+[17:04:10.260] 设备 192.168.0.251:35838 已连接
+[17:04:10.263] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:04:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:04:10.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:04:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111704104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:04:10.273] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:04:15.277] 设备 192.168.0.251:35838 已断开
+[17:04:25.246] 设备 192.168.0.251:35852 已连接
+[17:04:25.248] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:04:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:04:25.257] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:04:25 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111704254"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:04:25.258] 耗时 9 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:04:30.263] 设备 192.168.0.251:35852 已断开
+[17:04:40.258] 设备 192.168.0.251:35872 已连接
+[17:04:40.259] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:04:41
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:04:40.278] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:04:40 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111704404"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:04:40.279] 耗时 20 ms（服务器往返 19 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:04:43.254] 收到：192.168.0.251 >GET /hpt/v2/Accounts/FaceSyncTasks?clientNos=0002&size=100 HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:04:44
+sn: RY202308230159
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[17:04:43.257] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Content-Type: application/json; charset=gb2312
+Date: Wed, 11 Nov 2026 09:04:43 GMT
+Content-Length: 52
+Content-Type: text/plain
+Server: HPTHTTP
+
+{"clearData": false,"models":[]}
+
+（已解压 gzip：52 字节 → 明文 32 字节）
+
+[17:04:43.257] 耗时 4 ms（服务器往返 3 ms） · 上传 0 字节 / 下载 52 字节
+
+[17:04:48.261] 设备 192.168.0.251:35872 已断开
+[17:04:55.247] 设备 192.168.0.251:35886 已连接
+[17:04:55.251] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:04:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:04:55.264] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:04:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111704554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:04:55.264] 耗时 13 ms（服务器往返 13 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:05:00.269] 设备 192.168.0.251:35886 已断开
+[17:05:10.251] 设备 192.168.0.251:35906 已连接
+[17:05:10.254] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:05:11
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:05:10.264] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:05:10 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111705104"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:05:10.265] 耗时 11 ms（服务器往返 10 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:05:15.269] 设备 192.168.0.251:35906 已断开
+[17:05:25.248] 设备 192.168.0.251:35920 已连接
+[17:05:25.254] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:05:26
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:05:25.263] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:05:25 GMT
+Content-Length: 203
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111705254"
+}
+
+（已解压 gzip：203 字节 → 明文 300 字节）
+
+[17:05:25.264] 耗时 10 ms（服务器往返 9 ms） · 上传 24 字节 / 下载 203 字节
+
+[17:05:30.268] 设备 192.168.0.251:35920 已断开
+[17:05:48.002] 程序已启动。填写远端协议/地址/端口后点击“启动服务”；设备把 http 服务地址指向本机 IP、端口填本机监听端口即可。
+[17:05:48.003] 日志文件：logs\HTTP转发服务-2026-11-11.log（界面暂停或清空时仍继续写入）
+[17:05:49.988] 服务已启动 · 监听 0.0.0.0:8089 → http://192.168.0.172:8088
+[17:05:49.988] 设备请连接 http://192.168.0.172:8089 · 连接超时 15 秒 / 响应超时 60 秒
+[17:05:49.988] 配置已保存：E:\豆包\HTTP转发服务\forwarder_config.json
+[17:05:55.255] 设备 192.168.0.251:35956 已连接
+[17:05:55.258] 收到：192.168.0.251 >POST /hpt/v1/CurrentTime HTTP/1.1
+user-agent: HPT-Machine
+connect: close
+password: 123
+client-id: 0002
+DevTime: 2026-11-11 17:05:56
+sn: RY202308230159
+Content-Type: application/json; charset=utf-8
+Content-Length: 24
+Host: 192.168.0.172:8089
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{"ICCID":"","ICCID2":""}
+
+[17:05:55.272] 返回：HTTP/1.1 200 OK
+Connection: close
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+Content-Type: application/json; charset=gb2312
+Client-ID: 0002
+Date: Wed, 11 Nov 2026 09:05:55 GMT
+Content-Length: 201
+Content-Type: text/plain
+Server: HPTHTTP
+
+{
+    "Status": "100",
+    "Msg": "",
+    "CloseTime": null,
+    "UploadImage": false,
+    "TimePrice": 1.0,
+    "BatchUpdate": 1,
+    "IsLittleEndian": true,
+    "resultShowSeconds": 5,
+    "autoOfflineTrade": true,
+    "recoInterval": 3,
+    "AcceptMenuImage": true,
+    "Time": "202611111705554"
+}
+
+（已解压 gzip：201 字节 → 明文 300 字节）
+
+[17:05:55.272] 耗时 15 ms（服务器往返 14 ms） · 上传 24 字节 / 下载 201 字节
+
+[17:06:00.277] 设备 192.168.0.251:35956 已断开
